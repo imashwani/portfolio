@@ -80,7 +80,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%"><stop offset="0%" stop-color="rgba(255,255,255,0.1)"/><stop offset="100%" stop-color="rgba(255,255,255,0)"/></radialGradient></defs><circle cx="200" cy="200" r="100" fill="url(%23a)"/><circle cx="800" cy="300" r="150" fill="url(%23a)"/><circle cx="400" cy="700" r="120" fill="url(%23a)"/><circle cx="900" cy="800" r="80" fill="url(%23a)"/></svg>');
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjUwJSIgY3k9IjUwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsMjU1LDI1NSwwLjEpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJyZ2JhKDI1NSwyNTUsMjU1LDApIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PGNpcmNsZSBjeD0iMjAwIiBjeT0iMjAwIiByPSIxMDAiIGZpbGw9InVybCgjYSkiLz48Y2lyY2xlIGN4PSI4MDAiIGN5PSIzMDAiIHI9IjE1MCIgZmlsbD0idXJsKCNhKSIvPjxjaXJjbGUgY3g9IjQwMCIgY3k9IjcwMCIgcj0iMTIwIiBmaWxsPSJ1cmwoI2EpIi8+PGNpcmNsZSBjeD0iOTAwIiBjeT0iODAwIiByPSI4MCIgZmlsbD0idXJsKCNhKSIvPjwvc3ZnPg==');
   animation: float 20s ease-in-out infinite;
 }
 
