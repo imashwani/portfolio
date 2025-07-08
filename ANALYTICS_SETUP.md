@@ -19,7 +19,7 @@ Your portfolio now includes **Google Analytics 4** integration to track website 
 ### Step 2: Get Your Tracking ID
 
 1. After creating the property, Google will show you the **Measurement ID**
-2. It looks like: `G-XXXXXXXXXX` (e.g., `G-ABC123DEF4`)
+2. It looks like: `G-7Z52HLG2DM` (e.g., `G-ABC123DEF4`)
 3. **Copy this ID** - you'll need it next!
 
 ### Step 3: Add Tracking ID to Your Website
@@ -32,7 +32,7 @@ REACT_APP_GA_TRACKING_ID=G-YOUR-ACTUAL-ID-HERE
 
 **Option B: Direct Configuration**
 1. Open `src/config.js`
-2. Replace `G-XXXXXXXXXX` with your actual tracking ID:
+2. Replace `G-7Z52HLG2DM` with your actual tracking ID:
 ```javascript
 GA_TRACKING_ID: 'G-YOUR-ACTUAL-ID-HERE',
 ```
@@ -114,7 +114,7 @@ After setup, you can access insights at [analytics.google.com](https://analytics
 4. You should see your interactions appear!
 
 ### **Common Issues**
-- **Wrong tracking ID**: Double-check the G-XXXXXXXXXX format
+- **Wrong tracking ID**: Double-check the G-7Z52HLG2DM format
 - **AdBlockers**: May block analytics (normal behavior)
 - **Local development**: Analytics only works on live website
 

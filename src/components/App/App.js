@@ -15,7 +15,7 @@ import { config } from '../../config';
 function App() {
   useEffect(() => {
     // Initialize Google Analytics if enabled
-    if (config.ENABLE_ANALYTICS && config.GA_TRACKING_ID !== 'G-XXXXXXXXXX') {
+    if (config.ENABLE_ANALYTICS && config.GA_TRACKING_ID !== 'G-7Z52HLG2DM') {
       initGA(config.GA_TRACKING_ID);
       
       // Track initial page view

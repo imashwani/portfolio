@@ -2,9 +2,9 @@
 
 export const config = {
   // Google Analytics 4 Tracking ID
-  // Replace 'G-XXXXXXXXXX' with your actual Google Analytics 4 Measurement ID
+  // Replace 'G-7Z52HLG2DM' with your actual Google Analytics 4 Measurement ID
   // You can get this from your Google Analytics property settings
-  GA_TRACKING_ID: process.env.REACT_APP_GA_TRACKING_ID || 'G-XXXXXXXXXX',
+  GA_TRACKING_ID: process.env.REACT_APP_GA_TRACKING_ID || 'G-7Z52HLG2DM',
   
   // Website information
   SITE_NAME: 'Ashwani Prasad - Portfolio',
