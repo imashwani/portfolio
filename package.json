@@ -1,7 +1,7 @@
 {
   "name": "resume-website",
   "version": "0.1.0",
-  "homepage": "https://imashwani.github.io/portfolio",
+  "homepage": "https://imashwani.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

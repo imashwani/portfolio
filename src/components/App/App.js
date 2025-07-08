@@ -8,7 +8,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <img src="/me.png" alt="Ashwani Prasad" className="profile-image" />
+          <img src={process.env.PUBLIC_URL + "/me.png"} alt="Ashwani Prasad" className="profile-image" />
           <h1 className="hero-title">Ashwani Prasad</h1>
           <p className="hero-subtitle">Senior Software Engineer</p>
           <p className="hero-description">
@@ -58,7 +58,7 @@ function App() {
               {/* Super.Money */}
               <div className="experience-card">
                 <div className="company-header">
-                  <img src="/supermoney.png" alt="Super.Money" className="company-logo" />
+                                     <img src={process.env.PUBLIC_URL + "/supermoney.png"} alt="Super.Money" className="company-logo" />
                   <div className="company-info">
                     <h3>Super.Money</h3>
                     <div className="position">Software Engineer III</div>
@@ -83,7 +83,7 @@ function App() {
               {/* CRED - Software Engineer II */}
               <div className="experience-card">
                 <div className="company-header">
-                  <img src="/cred.png" alt="CRED" className="company-logo" />
+                  <img src={process.env.PUBLIC_URL + "/cred.png"} alt="CRED" className="company-logo" />
                   <div className="company-info">
                     <h3>CRED</h3>
                     <div className="position">Software Engineer II</div>
@@ -125,7 +125,7 @@ function App() {
               {/* CRED - Software Engineer I */}
               <div className="experience-card">
                 <div className="company-header">
-                  <img src="/cred.png" alt="CRED" className="company-logo" />
+                  <img src={process.env.PUBLIC_URL + "/cred.png"} alt="CRED" className="company-logo" />
                   <div className="company-info">
                     <h3>CRED</h3>
                     <div className="position">Software Engineer I</div>
@@ -166,7 +166,7 @@ function App() {
               {/* Crio.do */}
               <div className="experience-card">
                 <div className="company-header">
-                  <img src="/crio.png" alt="Crio.do" className="company-logo" />
+                  <img src={process.env.PUBLIC_URL + "/crio.png"} alt="Crio.do" className="company-logo" />
                   <div className="company-info">
                     <h3>Crio.do</h3>
                     <div className="position">Student Developer</div>
