@@ -11,8 +11,8 @@ import {
 // Personal Information
 export const personalInfo = {
   name: "Ashwani Prasad",
-  title: "Software Engineer",
-  description: "Software engineer with 6 years of experience designing and building scalable, fault-tolerant platforms using microservice architecture. Hands-on experience building distributed streaming platforms for near-realtime data processing.",
+  title: "Senior Backend Engineer",
+  description: "Backend engineer with 6 years of experience building high-scale distributed systems. I've scaled an API gateway to ~15K RPS, built a Flink-based real-time UPI fraud detection pipeline, and shipped lending and fee platforms serving 10M+ users at CRED.",
   image: "/me.png",
   email: "ashwani.p30@gmail.com",
   linkedIn: "https://www.linkedin.com/in/ashwani-prasad/",
@@ -20,6 +20,14 @@ export const personalInfo = {
 };
 
 // Experience Data
+export const stats = [
+  { value: "6 yrs", label: "Building backend systems" },
+  { value: "15K", label: "RPS on Kong API gateway" },
+  { value: "4B+", label: "Monthly txns in fee module" },
+  { value: "10M+", label: "Users on Bankstack" },
+  { value: "31%", label: "AWS ECS cost reduction" }
+];
+
 export const experiences = [
   {
     id: 1,
