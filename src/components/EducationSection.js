@@ -2,7 +2,7 @@ import React from 'react';
 
 const EducationSection = ({ education }) => {
   return (
-    <section className="section">
+    <section id="education" className="section">
       <h2 className="section-title">Education</h2>
       <div className="education-card">
         <h3>{education.institution}</h3>
