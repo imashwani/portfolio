@@ -61,6 +61,12 @@ function App() {
           <EducationSection education={education} />
         </div>
       </main>
+      <footer id="contact" className="contact">
+        <h2>Let's talk</h2>
+        <p>Open to Senior / SDE III backend engineering roles.</p>
+        <a className="btn-primary" href={`mailto:${personalInfo.email}`} onClick={handleEmailClick}>{personalInfo.email}</a>
+        <div className="foot">© {new Date().getFullYear()} Ashwani Prasad</div>
+      </footer>
     </div>
   );
 }
