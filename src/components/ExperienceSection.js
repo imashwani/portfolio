@@ -3,7 +3,7 @@ import React from 'react';
 const ExperienceSection = ({ experiences }) => {
   return (
     <section id="experience" className="section">
-      <h2 className="section-title">Professional Experience</h2>
+      <h2 className="section-title">Experience</h2>
       <div className="experience-grid">
         {experiences.map((exp) => (
           <div key={exp.id} className="experience-card">
@@ -21,7 +21,7 @@ const ExperienceSection = ({ experiences }) => {
             </div>
             
             <div className="company-summary">
-              <h4>Focus: {exp.focus}</h4>
+              <h4>{exp.focus}</h4>
               <p>{exp.description}</p>
             </div>
             
