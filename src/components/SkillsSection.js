@@ -2,8 +2,8 @@ import React from 'react';
 
 const SkillsSection = ({ skills }) => {
   return (
-    <section className="section">
-      <h2 className="section-title">Technical Expertise</h2>
+    <section id="skills" className="section">
+      <h2 className="section-title">Technical expertise</h2>
       <div className="skills-grid">
         {skills.map((skillCategory) => {
           const IconComponent = skillCategory.icon;
