@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Carlito:wght@400;700&display=swap');
 :root{--bg:#0d1420;--panel:#141d2e;--panel2:#1a2538;--line:#27354f;--text:#e6edf7;--muted:#94a3bd;--accent:#7fb2f0;--accent2:#9ac7ff;--hero1:#101b33;--hero2:#1a2c52;--hero3:#243a66;--hero-sub:#bcd6f7;--orb:rgba(127,178,240,.2);--on-accent:#0d1420}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
-html body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-system,sans-serif}
+html body{background:var(--bg);color:var(--text);font-family:'Merriweather',Georgia,serif;font-weight:300}
+:root{--serif:'Merriweather',Georgia,serif;--sans:'Carlito',Calibri,sans-serif}
 .App{min-height:100vh}
 .topnav{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:14px 5vw;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .brand{font-weight:800;letter-spacing:1px;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;color:transparent;font-size:1.2rem}
@@ -69,3 +70,21 @@ html body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-syst
 @keyframes float{0%,100%{transform:translate(0,0) rotate(0deg) scale(1)}33%{transform:translate(30px,-26px) rotate(120deg) scale(1.08)}66%{transform:translate(-24px,18px) rotate(240deg) scale(.95)}}
 @media(prefers-reduced-motion:reduce){.orb{animation:none}}
 @media(max-width:768px){.hero-content{flex-direction:column-reverse;text-align:center}.hero-buttons{justify-content:center}.hero-title{font-size:2.6rem}.profile-image{width:170px;height:170px}.stats-strip{grid-template-columns:repeat(2,1fr)}.stat{border-bottom:1px solid var(--line)}.navlinks a{margin-left:12px;font-size:.8rem}.hero-section{padding-top:50px}}
+
+
+/* Resume fonts: Merriweather (name, titles, body) + Calibri (free metric match: Carlito) for section headings and labels */
+.hero-title,.company-info h3,.education-card h3,.contact h2{font-family:var(--serif);font-weight:700;letter-spacing:-.01em}
+.hero-title{font-size:3.4rem;line-height:1.15}
+.hero-subtitle{font-family:var(--serif);font-weight:400;font-size:1.25rem}
+.section-title,.brand,.navlinks a,.skill-category h3,.company-summary h4,.eyebrow,.btn-primary,.btn-secondary,.stat-label,.duration,.tech-tag,.skill-item,.achievement-item .description,.stat-label{font-family:var(--sans)}
+.section-title{font-size:2.2rem;font-weight:700}
+.brand{font-size:1.5rem;font-weight:700}
+.navlinks a{font-size:1rem;font-weight:400}
+.company-info h3{font-size:1.25rem}
+.position{font-family:var(--serif);font-weight:700;font-size:.9rem}
+.duration,.stat-label{font-size:.9rem}
+.stat-value,.metric{font-family:var(--serif);font-weight:700}
+.stat-value{font-size:1.5rem}.metric{font-size:1.3rem}
+.hero-description,.company-summary p,.contact p{font-weight:300;line-height:1.85;font-size:.95rem}
+.tech-tag,.skill-item{font-size:.88rem}
+@media(max-width:768px){.hero-title{font-size:2.3rem}.section-title{font-size:1.7rem}}
