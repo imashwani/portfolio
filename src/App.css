@@ -42,6 +42,7 @@ html body{background:var(--bg);color:var(--text);font-family:'Merriweather',Geor
 .company-info h3{margin:0;font-size:1.2rem;color:var(--text)}
 .position{color:var(--accent);font-weight:600;font-size:.95rem}
 .duration{color:var(--muted);font-size:.85rem}
+@media(min-width:769px){.company-info{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:baseline;column-gap:16px;flex:1;min-width:0}.company-info h3{justify-self:start}.company-info .position{justify-self:center;text-align:center;white-space:nowrap}.company-info .duration{justify-self:end;text-align:right}}
 .company-summary h4{margin:0 0 8px;font-size:.78rem;text-transform:uppercase;letter-spacing:1.2px;color:var(--accent2)}
 .company-summary p{margin:0;color:color-mix(in srgb,var(--text) 80%,var(--bg));line-height:1.7;font-size:.95rem}
 .achievements{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:20px 0}
