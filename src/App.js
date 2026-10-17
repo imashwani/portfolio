@@ -10,11 +10,13 @@ import {
   trackDownload
 } from './analytics';
 import { config } from './config';
-import { personalInfo, experiences, skills, education } from './data';
+import { personalInfo, experiences, skills, education, icons } from './data';
 import HeroSection from './components/HeroSection';
 import ExperienceSection from './components/ExperienceSection';
 import SkillsSection from './components/SkillsSection';
 import EducationSection from './components/EducationSection';
+
+const LinkedinIcon = icons.linkedin;
 
 function App() {
   useEffect(() => {
@@ -64,7 +66,10 @@ function App() {
       <footer id="contact" className="contact">
         <h2>Let's talk</h2>
         <p>Open to Senior / SDE III backend engineering roles.</p>
-        <a className="btn-primary" href={`mailto:${personalInfo.email}`} onClick={handleEmailClick}>{personalInfo.email}</a>
+        <div className="contact-links">
+          <a className="btn-primary" href={`mailto:${personalInfo.email}`} onClick={handleEmailClick}>{personalInfo.email}</a>
+          <a className="btn-secondary" href={personalInfo.linkedIn} target="_blank" rel="noopener noreferrer" onClick={handleLinkedInClick}><LinkedinIcon /> LinkedIn</a>
+        </div>
         <div className="foot">© {new Date().getFullYear()} Ashwani Prasad</div>
       </footer>
     </div>

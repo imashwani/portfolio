@@ -21,11 +21,11 @@ export const personalInfo = {
 
 // Experience Data
 export const stats = [
-  { value: "6 yrs", label: "Building backend systems" },
-  { value: "15K", label: "RPS on Kong API gateway" },
-  { value: "4B+", label: "Monthly txns in fee module" },
+  { value: "6 yrs", label: "Backend systems" },
+  { value: "15K", label: "RPS on Kong gateway" },
+  { value: "4B+", label: "Monthly fee txns" },
   { value: "10M+", label: "Users on Bankstack" },
-  { value: "31%", label: "AWS ECS cost reduction" }
+  { value: "31%", label: "ECS cost reduction" }
 ];
 
 export const experiences = [
