@@ -78,7 +78,7 @@ export const experiences = [
     id: 4,
     company: "CRED",
     position: "SDE Intern",
-    duration: "July 2020 - Nov 2020 • Bangalore, IN",
+    duration: "Jan 2020 - Jul 2020 • Bangalore, IN",
     logo: "/cred.png",
     focus: "Backend Development",
     description: "Worked with the backend team using Spring Boot. Implemented circuit breakers with resilience4j to prevent cascading failures from downstream service outages.",
